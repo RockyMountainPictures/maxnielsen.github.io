@@ -1844,7 +1844,7 @@ section.lazy-placeholder:after {
 .cid-sxkWruUlJL .card-title {
   color: #fafafa;
 }
-@media (max-width: 992px) {
+@media (max-width: 1000px) {
   .cid-sxkWruUlJL .card-box {
     opacity: 1;
     transform: translateY(0px);
@@ -1859,6 +1859,11 @@ section.lazy-placeholder:after {
 .cid-sxkWruUlJL .mbr-text,
 .cid-sxkWruUlJL .mbr-section-btn {
   color: #ffffff;
+}
+@media (hover: none) {
+  .cid-sxkWruUlJL card-box {
+    opacity: 1 !important;
+  }
 }
 .cid-saODkwjsce {
   padding-top: 15px;
