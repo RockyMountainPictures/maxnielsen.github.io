@@ -1779,7 +1779,7 @@ section.lazy-placeholder:after {
   z-index: 3;
   position: relative;
   margin: auto;
-  opacity: 0;
+  opacity: 1;
   transform: translateY(20px);
   transition: all 0.3s;
 }
@@ -1860,9 +1860,9 @@ section.lazy-placeholder:after {
 .cid-sxkWruUlJL .mbr-section-btn {
   color: #ffffff;
 }
-@media (not(hover)) {
+@media (hover: hover) and (pointer: fine) {
   .cid-sxkWruUlJL .card-box {
-    opacity: 1 !important;
+    opacity: 0;
   }
 }
 .cid-saODkwjsce {

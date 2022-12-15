@@ -187,7 +187,7 @@
               "z-index": "3",
               "position": "relative",
               "margin": "auto",
-              "opacity": "0",
+              "opacity": "1",
               "transform": "translateY(20px)",
               "transition": "all 0.3s",
               "&:focus-within": {
@@ -266,9 +266,9 @@
             ".mbr-text, .mbr-section-btn": {
               "color": "#ffffff"
             },
-            "@media (not(hover))": {
+            "@media (hover: hover) and (pointer: fine)": {
               ".card-box": {
-                "opacity": "1 !important"
+                "opacity": "0"
               }
             }
           },
