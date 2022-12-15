@@ -1820,7 +1820,7 @@ section.lazy-placeholder:after {
   left: 0;
   content: '';
   background: #111123;
-  opacity: 0;
+  opacity: 0.4;
   z-index: 2;
   pointer-events: none;
   transition: all 0.3s;
@@ -1862,6 +1862,9 @@ section.lazy-placeholder:after {
 }
 @media (hover: hover) and (pointer: fine) {
   .cid-sxkWruUlJL .card-box {
+    opacity: 0;
+  }
+  .cid-sxkWruUlJL .card-wrapper:before {
     opacity: 0;
   }
 }
