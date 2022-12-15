@@ -1860,8 +1860,8 @@ section.lazy-placeholder:after {
 .cid-sxkWruUlJL .mbr-section-btn {
   color: #ffffff;
 }
-@media (hover: none) {
-  .cid-sxkWruUlJL card-box {
+@media (not(hover)) {
+  .cid-sxkWruUlJL .card-box {
     opacity: 1 !important;
   }
 }
