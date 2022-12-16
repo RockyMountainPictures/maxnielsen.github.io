@@ -69,7 +69,7 @@
     "siteUrl": "https://maxnielsen.ca",
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 158,
+    "uniqCompNum": 162,
     "versionPublish": "5.7.0",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-162073301-4\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-162073301-4');\ngtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.\n</script>",
     "screenshot": "screenshot.png",
@@ -1666,7 +1666,7 @@
           },
           "_name": "features02",
           "_sourceTheme": "branchm4",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Left Title\" name=\"showtitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlink\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <hr>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#d263d0\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/test3-1.webp\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#111123\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0d0f1c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"title col-12 align-center\" mbr-if=\"showTitle || showSubtitle\">\n                <div class=\"mbr-section-btn align-right awesome2 awesome3\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"awesome4 awesome2 btn btn-md btn-white-outline\" href=\"index.html#features06-19\" data-app-placeholder=\"Type Text\"><span class=\"awesome2 icon54-v1-down-left1 mbr-iconfont mbr-iconfont-btn\"></span>Back</a></div>\n                <h2 class=\"pb-5 mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>The Archer</b></h2>\n            </div>\n            <div class=\"col-12 col-md-3 lefttitle\">\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n                <p class=\"align-left mbr-fonts-style text-box mbr-white\" data-app-selector=\".text2, .text-box\" mbr-theme-style=\"display-5\" mbr-if=\"showtitle\">2022<br><a href=\"https://www.sfu.ca/outlines.html?2021/spring/iat/167/d100\" class=\"text-success\" target=\"_blank\">IAT 167</a><br>Individual Project<br><br><b>^&nbsp;Details</b></p>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-9 col-lg-6 col-xl-4 img-wrap img-padding-time d-inline-block align-top mw-100\">\n                <img class=\"img1 h-auto w-100 align-top mb-4\" src=\"@PROJECT_PATH@/assets/images/test.webp\" alt=\"Mobirise\" mbr-if=\"showImages\">\n                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showlink\"><a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-danger text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"https://github.com/rockymountainpictures\" target=\"_blank\">View on GitHub</a> <a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-secondary text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"the-archer.html#gallery1-3s\">Play on itch.io</a></div>\n            </div>\n            <div class=\"col-md-12 col-lg-6 col-xl-5 text\">\n                <div class=\"wrapper px-3 px-sm-1 pl-md-0 pl-lg-5 pl-xl-4 sub-text-realign\">\n                    <h3 class=\"mbr-section-title align-left mbr-white mb-5 pt-4 mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text\">A game design project,</h3>\n                    <p class=\"align-left mbr-fonts-style mbr-white mbr-regular sub-text mb-5\" data-app-selector=\".sub-text\" mbr-theme-style=\"display-7\"><i>The Archer</i> is the culmination of developing skills in programming and game design and development in game design course&nbsp;<a href=\"https://www.sfu.ca/outlines.html?2021/spring/iat/167/d100\" class=\"text-success\" target=\"_blank\">IAT 167</a>.<br><br>Made in <a href=\"https://processing.org/\" class=\"text-success\" target=\"_blank\">Processing.js</a>, <i>The Archer&nbsp;</i>uses <a href=\"https://code.compartmental.net/tools/minim/\" class=\"text-success text-primary\" target=\"_blank\">minim</a> for audio and <a href=\"https://sojamo.de/libraries/controlP5/\" class=\"text-success\" target=\"_blank\">controlP5 </a>for UI elements. There are ~3300 lines of code and ~200 assets.<br><br><u>Notable aspects of the programming:</u><br>- Enemy projectiles use projectile motion physics.<br>- Method creates an outline that is overlayed on interactable objects when you approach them.<br>- Seamless game state switching.<br><br>I wanted to focus on the experience and immersion of the gameplay. I followed the sensation and discovery aspects of the <a href=\"https://en.m.wikipedia.org/wiki/Marc_LeBlanc#8_Kinds_of_Fun\" class=\"text-success text-primary\" target=\"_blank\"><i>Eight Kinds of Fun</i></a> outlined by renowned game designer Marc LeBlanc.<br><br>This led me to focus on creating unique environments, visual feedback systems, and simple gameplay mechanics to aid in the overall experience.&nbsp;</p>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"mbr-white btn ml-0 mt-0 btn-white-outline\" data-app-placeholder=\"Type Text\">View on GitHub</a></div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Left Title\" name=\"showtitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlink\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <hr>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#d263d0\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/test3-1.webp\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#111123\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0d0f1c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"title col-12 align-center\" mbr-if=\"showTitle || showSubtitle\">\n                <div class=\"mbr-section-btn align-right awesome2 awesome3\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"awesome4 awesome2 btn btn-md btn-white-outline\" href=\"index.html#features06-19\" data-app-placeholder=\"Type Text\"><span class=\"awesome2 icon54-v1-down-left1 mbr-iconfont mbr-iconfont-btn\"></span>Back</a></div>\n                <h2 class=\"pb-5 mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>The Archer</b></h2>\n            </div>\n            <div class=\"col-12 col-md-3 lefttitle\">\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n                <p class=\"align-left mbr-fonts-style text-box mbr-white\" data-app-selector=\".text2, .text-box\" mbr-theme-style=\"display-5\" mbr-if=\"showtitle\">2022<br><a href=\"https://www.sfu.ca/outlines.html?2021/spring/iat/167/d100\" class=\"text-success\" target=\"_blank\">IAT 167</a><br>Individual Project<br><br><b>^&nbsp;Details</b></p>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-9 col-lg-6 col-xl-4 img-wrap img-padding-time d-inline-block align-top mw-100\">\n                <img class=\"img1 h-auto w-100 align-top mb-4\" src=\"@PROJECT_PATH@/assets/images/test.webp\" alt=\"Mobirise\" mbr-if=\"showImages\">\n                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showlink\"><a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-danger text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"https://github.com/RockyMountainPictures/the-archer\" target=\"_blank\">View on GitHub</a> <a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-secondary text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"https://bumblingbuffoons.itch.io/the-archer\" target=\"_blank\">Download through itch.io</a></div>\n            </div>\n            <div class=\"col-md-12 col-lg-6 col-xl-5 text\">\n                <div class=\"wrapper px-3 px-sm-1 pl-md-0 pl-lg-5 pl-xl-4 sub-text-realign\">\n                    <h3 class=\"mbr-section-title align-left mbr-white mb-5 pt-4 mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text\">A game design project,</h3>\n                    <p class=\"align-left mbr-fonts-style mbr-white mbr-regular sub-text mb-5\" data-app-selector=\".sub-text\" mbr-theme-style=\"display-7\"><i>The Archer</i> is the culmination of developing skills in programming and game design and development in game design course&nbsp;<a href=\"https://www.sfu.ca/outlines.html?2021/spring/iat/167/d100\" class=\"text-success\" target=\"_blank\">IAT 167</a>.<br><br>Made in <a href=\"https://processing.org/\" class=\"text-success\" target=\"_blank\">Processing.js</a>, <i>The Archer&nbsp;</i>uses <a href=\"https://code.compartmental.net/tools/minim/\" class=\"text-success text-primary\" target=\"_blank\">minim</a> for audio and <a href=\"https://sojamo.de/libraries/controlP5/\" class=\"text-success\" target=\"_blank\">controlP5 </a>for UI elements. There are ~3300 lines of code and ~200 assets.<br><br><u>Notable aspects of the programming:</u><br>- Enemy projectiles use projectile motion physics.<br>- Method creates an outline that is overlayed on interactable objects when you approach them.<br>- Seamless game state switching.<br><br>I wanted to focus on the experience and immersion of the gameplay. I followed the sensation and discovery aspects of the <a href=\"https://en.m.wikipedia.org/wiki/Marc_LeBlanc#8_Kinds_of_Fun\" class=\"text-success text-primary\" target=\"_blank\"><i>Eight Kinds of Fun</i></a> outlined by renowned game designer Marc LeBlanc.<br><br>This led me to focus on creating unique environments, visual feedback systems, and simple gameplay mechanics to aid in the overall experience.&nbsp;</p>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"mbr-white btn ml-0 mt-0 btn-white-outline\" data-app-placeholder=\"Type Text\">View on GitHub</a></div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "features02-3q",
@@ -2400,7 +2400,7 @@
           },
           "_name": "features02",
           "_sourceTheme": "branchm4",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Left Title\" name=\"showtitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlink\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <hr>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#d263d0\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/iat-222-exhibition-22.webp\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#111123\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0d0f1c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"title col-12 align-center\" mbr-if=\"showTitle || showSubtitle\">\n                <div class=\"mbr-section-btn align-right awesome2 awesome3\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"awesome4 awesome2 btn btn-md btn-white-outline\" href=\"index.html#features06-19\" data-app-placeholder=\"Type Text\"><span class=\"awesome2 icon54-v1-down-left1 mbr-iconfont mbr-iconfont-btn\"></span>Back</a></div>\n                <h2 class=\"pb-5 mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Snapshot</b></h2>\n            </div>\n            <div class=\"col-12 col-md-3 lefttitle\">\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n                <p class=\"align-left mbr-fonts-style text-box mbr-white\" data-app-selector=\".text2, .text-box\" mbr-theme-style=\"display-5\" mbr-if=\"showtitle\">2022<br><a href=\"https://www.sfu.ca/outlines.html?2022/fall/iat/222/d100\" class=\"text-success text-primary\" target=\"_blank\">IAT&nbsp;222</a><br>Group Project<br><br><b>^&nbsp;Details</b></p>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-9 col-lg-6 col-xl-4 img-wrap img-padding-time d-inline-block align-top mw-100\">\n                <img class=\"img1 h-auto w-100 align-top mb-4\" src=\"@PROJECT_PATH@/assets/images/iat-222-exhibition-8.webp\" alt=\"Mobirise\" mbr-if=\"showImages\">\n                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showlink\"><a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-secondary text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"template.html#gallery1-3d\">View on GitHub</a> <a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-secondary text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"template.html#gallery1-3d\">Learn about <em>Snapshot</em></a></div>\n            </div>\n            <div class=\"col-md-12 col-lg-6 col-xl-5 text\">\n                <div class=\"wrapper px-3 px-sm-1 pl-md-0 pl-lg-5 pl-xl-4 sub-text-realign\">\n                    <h3 class=\"mbr-section-title align-left mbr-white mb-5 pt-4 mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text\">An interactive art project,</h3>\n                    <p class=\"align-left mbr-fonts-style mbr-white mbr-regular sub-text mb-5\" data-app-selector=\".sub-text\" mbr-theme-style=\"display-7\">For interactive arts course <a href=\"https://www.sfu.ca/outlines.html?2022/fall/iat/222/d100\" class=\"text-success\" target=\"_blank\">IAT 222</a>, our group of six created <i>Snapshot</i>, a media-translation art installation exploring the difference of creativity and imagination between AI (artificial intelligence) and humans.&nbsp;<br><br>It main attraction is the black box. It symbolizes the obscure nature of the AI's processes, houses the electronics, and divides the space to separate the two participants.<br><br>We developed the interaction and artistic decisions as a team and I executed on those decisions. I designed and constructed the black box, wrote all the code to create a seamless experience, and managed all of the equipment required for the final exhibition.<br><br>I expanded my skills on project planning, designing, woodworking, and coding (API, I/O, database, synchronization, etc.) through <i>Snapshot</i>.<br></p>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"mbr-white btn ml-0 mt-0 btn-white-outline\" data-app-placeholder=\"Type Text\">View on GitHub</a></div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Left Title\" name=\"showtitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showlink\" checked>\n        <input type=\"checkbox\" title=\"Button\" name=\"showButton\">\n        <hr>\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#d263d0\" selected>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/iat-222-exhibition-22.webp\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#111123\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#0d0f1c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container-fluid': fullWidth, 'container': !fullWidth }\">\n        <div class=\"row\">\n            <div class=\"title col-12 align-center\" mbr-if=\"showTitle || showSubtitle\">\n                <div class=\"mbr-section-btn align-right awesome2 awesome3\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"awesome4 awesome2 btn btn-md btn-white-outline\" href=\"index.html#features06-19\" data-app-placeholder=\"Type Text\"><span class=\"awesome2 icon54-v1-down-left1 mbr-iconfont mbr-iconfont-btn\"></span>Back</a></div>\n                <h2 class=\"pb-5 mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Snapshot</b></h2>\n            </div>\n            <div class=\"col-12 col-md-3 lefttitle\">\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n                <p class=\"align-left mbr-fonts-style text-box mbr-white\" data-app-selector=\".text2, .text-box\" mbr-theme-style=\"display-5\" mbr-if=\"showtitle\">2022<br><a href=\"https://www.sfu.ca/outlines.html?2022/fall/iat/222/d100\" class=\"text-success text-primary\" target=\"_blank\">IAT&nbsp;222</a><br>Group Project<br><br><b>^&nbsp;Details</b></p>\n                <div class=\"separator d-flex flex-row flex-nowrap\" mbr-if=\"showtitle\">\n                    <span class=\"sep-holder w-100\">\n                        <span class=\"sep-line d-block w-100\"></span>\n                    </span>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-9 col-lg-6 col-xl-4 img-wrap img-padding-time d-inline-block align-top mw-100\">\n                <img class=\"img1 h-auto w-100 align-top mb-4\" src=\"@PROJECT_PATH@/assets/images/iat-222-exhibition-8.webp\" alt=\"Mobirise\" mbr-if=\"showImages\">\n                <div class=\"mbr-section-btn\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"mbrBtnMove,mbrBtnLink,mbrBtnAdd\" mbr-if=\"showlink\"><a class=\"mbr-section-subtitle mbr-white mbr-light mbr-fonts-style awesome text-secondary text-primary\" data-app-selector=\".awesome\" data-app-placeholder=\"Type Text\" href=\"https://github.com/RockyMountainPictures/snapshot\" target=\"_blank\">View on GitHub</a></div>\n            </div>\n            <div class=\"col-md-12 col-lg-6 col-xl-5 text\">\n                <div class=\"wrapper px-3 px-sm-1 pl-md-0 pl-lg-5 pl-xl-4 sub-text-realign\">\n                    <h3 class=\"mbr-section-title align-left mbr-white mb-5 pt-4 mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .text\">An interactive art project,</h3>\n                    <p class=\"align-left mbr-fonts-style mbr-white mbr-regular sub-text mb-5\" data-app-selector=\".sub-text\" mbr-theme-style=\"display-7\">For interactive arts course <a href=\"https://www.sfu.ca/outlines.html?2022/fall/iat/222/d100\" class=\"text-success\" target=\"_blank\">IAT 222</a>, our group of six created <i>Snapshot</i>, a media-translation art installation exploring the difference of creativity and imagination between AI (artificial intelligence) and humans.&nbsp;<br><br>It main attraction is the black box. It symbolizes the obscure nature of the AI's processes, houses the electronics, and divides the space to separate the two participants.<br><br>We developed the interaction and artistic decisions as a team and I executed on those decisions. I designed and constructed the black box, wrote all the code to create a seamless experience, and managed all of the equipment required for the final exhibition.<br><br>I expanded my skills on project planning, designing, woodworking, and coding (API, I/O, database, synchronization, etc.) through <i>Snapshot</i>.<br></p>\n                    <div class=\"mbr-section-btn\" mbr-if=\"showButton\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a href class=\"mbr-white btn ml-0 mt-0 btn-white-outline\" data-app-placeholder=\"Type Text\">View on GitHub</a></div>\n                </div>\n\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "features02-3z",
@@ -4962,6 +4962,473 @@
           "_anchor": "features02-46",
           "_isUserblock": true,
           "_cid": "tpQMFTKkwe",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "gallery1",
+          "_sourceTheme": "portfoliom4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-section-title": {
+              "margin": "0",
+              "font-weight": "500"
+            },
+            ".underline": {
+              "margin-top": "-0.5rem",
+              "margin-bottom": "0",
+              ".line": {
+                "width": "20%",
+                "height": "4px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-title,.underline": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "margin-left": "20%",
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            "@media (max-width: 1000px)": {
+              ".underline": {
+                ".line": {
+                  "width": "33%"
+                }
+              },
+              ".mbr-section-title,.underline": {
+                "margin-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".underline": {
+                ".line": {
+                  "width": "40%"
+                }
+              },
+              "h2": {
+                "font-size": "2.5rem"
+              }
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#d263d0\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#111123\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"row justify-content-left\">\n            <div class=\"col-sm-10\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Production Shots</h2>\n                <div class=\"underline align-left\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 align-left\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n                    Gallery with text in top on hover. Use block parameters to off/on text, bullets and other\n                </h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery1-4e",
+          "_isUserblock": true,
+          "_cid": "tq8hR6XrTj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "gallery1",
+          "_sourceTheme": "portfoliom4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "@overlayColor",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out",
+              "& when (@gradOverlay)": {
+                "background": "linear-gradient(to left, @overlayColor, @overlayColor2) !important"
+              }
+            },
+            ".mbr-gallery-item > div:hover::before": {
+              "opacity": "@overlayOpacity !important"
+            },
+            ".mbr-gallery-filter-all > a": {
+              "padding": "30px",
+              "color": "@tagsColor !important"
+            },
+            ".mbr-gallery-filter": {
+              "padding-top": "1rem",
+              "margin-top": "-4rem",
+              "padding-bottom": "2rem",
+              ".btn": {
+                "text-transform": "uppercase",
+                "color": "@tagsColor !important",
+                "font-weight": "400",
+                "letter-spacing": "0.1em",
+                "margin": "0px !important",
+                "border": "none",
+                "padding": "12px 15px 12px 15px"
+              },
+              ".btn:hover": {
+                "background": "transparent",
+                "color": "@activeTagColor !important"
+              },
+              "ul": {
+                "display": "block",
+                "li": {
+                  "position": "relative"
+                }
+              },
+              "li.active .btn": {
+                "color": "@activeTagColor !important",
+                "background": "transparent"
+              },
+              "li::after": {
+                "bottom": "0.5rem",
+                "content": "\"\"",
+                "height": "4px",
+                "left": "50%",
+                "position": "absolute",
+                "-webkit-transform": "translateX(-50%) scale(0)",
+                "transform": "translateX(-50%) scale(0)",
+                "width": "4px",
+                "transition": "all 0.3s ease-in-out",
+                "background": "@activeTagColor !important"
+              },
+              "li.active::after, li:hover::after": {
+                "-webkit-transform": "translateX(-50%) scale(1)",
+                "transform": "translateX(-50%) scale(1)",
+                "background": "@activeTagColor !important"
+              }
+            },
+            ".mbr-gallery-title": {
+              "transition": "all.3s",
+              "position": "absolute",
+              "visibility": "hidden",
+              "display": "block",
+              "opacity": "0",
+              "width": "100%",
+              "top": "-2rem",
+              "right": "0",
+              "text-align": "right",
+              "padding": "1rem",
+              "color": "#fff",
+              "background": "transparent"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title": {
+                "top": "0",
+                "right": "0",
+                "display": "block",
+                "visibility": "visible",
+                "opacity": "1"
+              }
+            },
+            ".icon-focus": {
+              "display": "none"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "font-weight": "500"
+            },
+            ".underline": {
+              "margin-top": "-0.5rem",
+              "margin-bottom": "0",
+              ".line": {
+                "width": "20%",
+                "height": "4px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-title,.underline": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "margin-left": "20%"
+            },
+            "@media (max-width: 1000px)": {
+              ".underline": {
+                ".line": {
+                  "width": "33%"
+                }
+              },
+              ".mbr-section-title,.underline": {
+                "margin-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".underline": {
+                ".line": {
+                  "width": "50%"
+                }
+              },
+              "h2": {
+                "font-size": "2.5rem"
+              },
+              ".mbr-gallery-filter": {
+                "padding-bottom": "1rem",
+                ".btn": {
+                  "padding-bottom": "0.5rem",
+                  "padding-top": "0.25rem"
+                }
+              }
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "right"
+            },
+            ".pt-5": {
+              "padding-top": "0 !important"
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#d263d0\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Active Tag Color\" name=\"activeTagColor\" value=\"#d263d0\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#111123\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#ffffff\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#111123\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-sm-10\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Media</h2>\n                <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 align-center\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n                    Gallery with text in top on hover. Use block parameters to off/on text, bullets and other\n                </h3>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"pt-5\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\"></div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery1-4f",
+          "_isUserblock": true,
+          "_cid": "tq8hS682dy",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-7",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Construction",
+                "videoPreview": "@ADDONS_PATH@/portfoliom4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pxl-20221126-233922857.mp.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/pxl-20221126-233922857.mp.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@ADDONS_PATH@/portfoliom4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pxl-20221126-234334677.mp-1.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/pxl-20221126-234334677.mp-1.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@ADDONS_PATH@/portfoliom4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/pxl-20221127-234531407.mp.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/pxl-20221127-234531407.mp.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Construction",
+                "videoPreview": "@ADDONS_PATH@/portfoliom4/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dance-still-4.webp",
+                "thumb": "@PROJECT_PATH@/assets/images/dance-still-4.webp",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          }
+        },
+        {
+          "_name": "gallery1",
+          "_sourceTheme": "portfoliom4",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "overflow": "hidden",
+            "box-sizing": "border-box",
+            ".mbr-section-title": {
+              "margin": "0",
+              "font-weight": "500"
+            },
+            ".underline": {
+              "margin-top": "-0.5rem",
+              "margin-bottom": "0",
+              ".line": {
+                "width": "20%",
+                "height": "4px",
+                "background": "@underlineColor",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-title,.underline": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "margin-left": "20%",
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            "@media (max-width: 1000px)": {
+              ".underline": {
+                ".line": {
+                  "width": "33%"
+                }
+              },
+              ".mbr-section-title,.underline": {
+                "margin-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".underline": {
+                ".line": {
+                  "width": "40%"
+                }
+              },
+              "h2": {
+                "font-size": "2.5rem"
+              }
+            }
+          },
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" condition=\"showTitle\" checked>\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#d263d0\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#111123\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"row justify-content-left\">\n            <div class=\"col-sm-10\">\n                <h2 class=\"mbr-section-title mbr-fonts-style align-left\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Director's Cut</h2>\n                <div class=\"underline align-left\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 align-left\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">\n                    Gallery with text in top on hover. Use block parameters to off/on text, bullets and other\n                </h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "gallery1-4h",
+          "_isUserblock": true,
+          "_cid": "tq8hTyp54U",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-media": {
+              "position": "relative",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover"
+              }
+            },
+            ".icon-wrap": {
+              "left": "50%",
+              "top": "50%",
+              "transform": "translate(-50%, -50%)",
+              "position": "absolute"
+            },
+            ".mbr-media span": {
+              "font-size": "4rem",
+              "transition": "all 0.3s",
+              "&:hover": {
+                "font-size": "4.5rem"
+              }
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a:hover": {
+              "background": "transparent!important"
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "22px",
+              "font-weight": "300",
+              "width": "60px",
+              "height": "60px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "border": "2px solid #fff",
+              "text-shadow": "none",
+              "z-index": "5",
+              "transition": "opacity 0.3s ease",
+              "align-items": "center",
+              "justify-content": "center",
+              "display": "flex",
+              "&:hover": {
+                "opacity": "1",
+                "background": "#000",
+                "color": "#fff"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "video01",
+          "_sourceTheme": "researchm4",
+          "_customHTML": "<section class=\"video1\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <header>Video</header>\n        <input type=\"text\" title=\"Link\" name=\"modalVideo\" value=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input title=\"Image\" type=\"image\" value=\"@PROJECT_PATH@/assets/images/iat-222-exhibition-12.webp\">\n            <input title=\"Color\" type=\"color\" value=\"#111123\" selected>\n            <input title=\"Video\" type=\"video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-5\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Watch Video</b></h4>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"box\">\n                    <div class=\"mbr-media show-modal align-center\" data-modal=\".modalWindow\">\n                        <img src=\"@PROJECT_PATH@/assets/images/thumbnail.webp\" alt=\"Mobirise\">\n                        <div class=\"icon-wrap\">\n                            <a class=\"text-primary\" href=\"#\"><span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\" style=\"color: rgb(225, 32, 29); fill: rgb(225, 32, 29);\"></span></a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div>\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-close mobi-mbri closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "video01-4g",
+          "_isUserblock": true,
+          "_cid": "tq8hTarURt",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
