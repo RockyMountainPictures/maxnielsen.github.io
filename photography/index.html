@@ -4,30 +4,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Max Nielsen</title>
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="css/landing.css">
-	<script src="js/header.js" defer></script>
+	<title>Max Nielsen's Portfolio</title>
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/fonts.css">
+	<script src="../js/header.js" defer></script>
+	<script src="../js/line.js" defer></script>
 </head>
 
 <body>
+	<svg id="line"></svg>
+
 	<!-- Title and nav(?) -->
-	<header class="">
-		<div class="landing-submenu-wrapper">
-			<div class="landing-submenu">
-				<a class="landing-title">
-					<h1>Max Nielsen</h1>
-					<img src="img/icon/info.svg" width="23" height="23">
-				</a>
-				<a href="mailto:contact@maxnielsen.ca">Let's connect</a>
-			</div>
+	<header class="i-want-sticky-header">
+		<div>
+			<!-- <img src="img/logo.png" height="512" width="512"> -->
+			<a href="../index.html">
+				<h1>Max Nielsen</h1>
+			</a>
 		</div>
-		<!--
 
 		<a id="mobile-menu-link" href="#" class="button-small submenu-dropdown hide">
 			Menu
-			<img src="img/icon/chevron.png" width="36" height="18" alt="Show menu">
+			<img src="../img/icon/chevron.png" width="36" height="18" alt="Show menu">
 		</a>
 
 		<nav aria-label="Main">
@@ -35,7 +33,7 @@
 				<li><a id="about-link" href="#about" class="button-small">About me</a></li>
 				<li>
 					<a id="nav-projects" href="#projects" class="button-small submenu-dropdown">Projects<img
-							src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+							src="../img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
 					<ul class="dropdown" id="subnav-projects">
 						<li><a href="serendipity.html" class="button-small button-dropdown">Serendipity</a></li>
 						<li><a href="bc.html" class="button-small button-dropdown">BC Healthcare Hub</a></li>
@@ -43,7 +41,7 @@
 				</li>
 				<li>
 					<a id="nav-connect" href="#connect" class="button-small submenu-dropdown">Let's connect<img
-							src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+							src="../img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
 					<ul class="dropdown" id="subnav-connect">
 						<li><a href="mailto:contact@maxnielsen.ca" class="button-small button-dropdown">Email</a></li>
 						<li><a href="tel:7786364131" class="button-small button-dropdown">Phone</a></li>
@@ -52,42 +50,32 @@
 					</ul>
 				</li>
 			</ul>
-		</nav>-->
-
-		<nav class="landing-menu">
-			<ul>
-				<li class="landing-menu-card">
-					<a href="photography/index.html">
-						<img src="img/photography/hero.webp" width="3000" height="2000">
-						<h2>Photo&shy;graphy</h2>
-					</a>
-				</li>
-
-				<li class="landing-menu-card">
-					<a href="design/index.html">
-						<img src="img/project/serendipity/selector.webp" width="2600" height="1734">
-						<h2>Design Portfolio</h2>
-					</a>
-				</li>
-			</ul>
 		</nav>
+
 
 	</header>
 
 
+	<!-- Contact -->
+	<section id="connect" class="wrapper-padding">
+		<h2>Let's connect through:</h2>
+		<address>
+			<a href="mailto:contact@maxnielsen.ca" class="button-small">Email</a>
+			<a href="tel:7786364131" class="button-small">Phone</a>
+			<a href="https://www.linkedin.com/in/mnielsen-/" target="_blank" class="button-small">LinkedIn</a>
+		</address>
+	</section>
 
-
-
-	<!-- <footer>
+	<footer>
 		<p id="copyright">© Max Nielsen [insert current year here]</p>
 		
 		<p class="footer-location">from Vancouver, Canada</p>
 
 		<div class="footer-links">
-			<a class="button-small" href="citations.html">Citations</a>
+			<a class="button-small" href="../citations.html">Citations</a>
 			<a class="button-small" href="https://github.sfu.ca/mhn8/IAT339-P3" target="_blank">GitHub</a>
 		</div>
-	</footer> -->
+	</footer>
 </body>
 
 </html>
