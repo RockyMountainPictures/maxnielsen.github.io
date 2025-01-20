@@ -109,43 +109,30 @@ li {
 .landing-submenu {
     display: flex;
     flex-flow: row nowrap;
-    align-items: end;
-    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
     border-top: 2px solid var(--c-bg-light);
 }
 
-.landing-submenu h1, a {
+.landing-submenu a {
     color: var(--c-bg-light);
-    font-weight: 200;
-    font-size: 2rem;
     text-decoration: underline;
-    text-decoration-thickness: .0625rem;
-    text-decoration-color: var(--c-invis);
+    text-decoration-color: var(--c-bg-light);
+}
+
+.landing-submenu a:hover, .landing-submenu a:focus {
+    color: var(--c-link);
+    font-weight: 500;
 }
 
 .landing-submenu h1 {
     font-size: 2rem;
+    font-weight: 200;
+    color: var(--c-bg-light);
 }
 
-.landing-title {
-    display: flex;
-    gap: .5rem;
-    align-items: center;
-}
-
-.landing-title:hover , .landing-title:focus  {
-}
-
-.landing-title img {
-    height: 1.75rem;
-    width: auto;
-    opacity: 0;
-    margin-left: -1rem;
-}
-
-.landing-title:hover img, .landing-title:focus img {
-    margin-left: 0;
-    opacity: 1;
+.landing-title img:hover, .landing-title img:focus {
+    content: url("../img/icon/info-hovered.svg");
 }
 
 .landing-title:hover h1, .landing-title:focus h1 {
@@ -154,11 +141,31 @@ li {
 
 .landing-submenu a:hover, .landing-submenu a:focus {
     text-decoration: underline;
-    color: var(--c-bg-light);
-    text-decoration-color: var(--c-bg-light);
+    text-decoration-color: var(--c-link);
     text-decoration-thickness: .0625rem;
 }
 
+.landing-submenu img {
+    height: 1.75rem;
+    width: auto;
+    opacity: 0;
+    margin-left: -1rem;
+}
+
+.landing-submenu-wrapper:hover p, .landing-submenu:has(a:hover, a:focus) p {
+    margin-left: 0;
+    opacity: 1;
+}
+
+.landing-submenu p {
+    opacity: 0;
+    margin-left: -1rem;
+    margin-bottom: 0;
+    width: 20rem;
+    text-wrap: balance;
+    color: var(--c-bg-light );
+    margin-top: 0.25rem;
+}
 
 @media screen and (max-width: 75rem) {
     .landing-menu-card {
