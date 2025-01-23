@@ -67,11 +67,11 @@ li {
 
 .landing-menu-card:has(a:hover),
 .landing-menu-card:has(a:focus) {
-    width: 55%;
+    width: 52.5%;
 }
 
 .landing-menu:has(a:hover, a:focus) .landing-menu-card:not(:has(a:hover, a:focus)) {
-    width: 45%;
+    width: 47.5%;
 }
 
 
@@ -131,8 +131,12 @@ li {
     color: var(--c-bg-light);
 }
 
-.landing-title img:hover, .landing-title img:focus {
+/* .landing-title img:hover, .landing-title img:focus {
     content: url("../img/icon/info-hovered.svg");
+} */
+
+.landing-title {
+    text-wrap: nowrap;
 }
 
 .landing-title:hover h1, .landing-title:focus h1 {
@@ -152,14 +156,14 @@ li {
     margin-left: -1rem;
 }
 
-.landing-submenu-wrapper:hover p, .landing-submenu:has(a:hover, a:focus) p {
+/* .landing-submenu-wrapper:hover p, .landing-submenu:has(a:hover, a:focus) p {
     margin-left: 0;
     opacity: 1;
-}
+} */
 
 .landing-submenu p {
-    opacity: 0;
-    margin-left: -1rem;
+    /* opacity: 0;
+    margin-left: -1rem; */
     margin-bottom: 0;
     width: 20rem;
     text-wrap: balance;
@@ -171,7 +175,7 @@ li {
     .landing-menu-card {
         width: 100%;
         height: 50%;
-        display: block
+        display: block;
     }
 
     .landing-menu-card:has(a:hover),
@@ -197,6 +201,8 @@ li {
 
     .landing-menu-card h2 {
         font-size: 3rem;
+        /* top: auto;
+        bottom: 0; */
     }
 
     .landing-menu-card a:hover h2,
@@ -212,6 +218,19 @@ li {
         margin-bottom: 0 !important;
         hyphens: none;
     }
+
+    .landing-submenu-wrapper {
+        padding: 1rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 50rem) and (max-height: 20rem) {
+    .landing-menu-card h2 {
+        top: 0;
+        bottom: 0;
+    }
 }
 
 @media screen and (max-width: 31.25rem) {
@@ -223,16 +242,49 @@ li {
     .landing-menu-card a:focus h2 {
         font-size: 3.5rem;
     }
+
+    
+}
+
+@media screen and (max-height: 31.25rem) {
+    .landing-submenu-wrapper {
+        position: relative;
+        background: var(--c-bg-light);
+    }
+
+    .landing-submenu p, .landing-submenu h1, .landing-submenu a {
+        color: var(--c-bg-dark);
+        text-decoration-color: var(--c-bg-dark);
+    }
+
+    .landing-submenu {
+        border-top: none;
+    }
+
+    .landing-submenu-wrapper::after {
+        background: none;
+    }
+
+    header {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 31.25rem) and (max-height: 20rem) {
     .landing-menu-card h2 {
         font-size: 2rem;
+        bottom: 0;
     }
 
     .landing-menu-card a:hover h2,
     .landing-menu-card a:focus h2 {
         font-size: 2.25rem;
+    }
+}
+
+@media screen and (max-width: 27rem) {
+    .landing-title {
+        text-wrap: unset;
     }
 }
 
