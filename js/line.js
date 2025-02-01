@@ -22,10 +22,10 @@ var sfu_title_text = "Projects from SFU";
 var tue_title_text = "Projects from TU/e";
 
 var sfu_project_1_text = "BC Healthcare Hub";
-var sfu_project_1_link = "bc.html";
+var sfu_project_1_link = "project/bc.html";
 
 var tue_project_1_text = "Serendipity";
-var tue_project_1_link = "serendipity.html";
+var tue_project_1_link = "project/serendipity.html";
 
 // var tue_project_2_text = "Cats and the Home Office";
 // var tue_project_2_link = "serendipity.html";
@@ -36,8 +36,8 @@ var sfu_program_link = "https://siat.sfu.ca";
 var tue_program_text = "Industrial Design";
 var tue_program_link = "https://www.tue.nl/en/our-university/departments/industrial-design";
 
-var sfu_image_src = "img/sfu.webp";
-var tue_image_src = "img/tue.webp";
+var sfu_image_src = "../img/sfu.webp";
+var tue_image_src = "../img/tue.webp";
 
 
 // https://www.w3schools.com/howto/howto_js_media_queries.asp
@@ -47,14 +47,14 @@ var switching = false;
 var visible = false;
 var isSFU_ = false;
 
-wrapper_element.classList.add('hide');
+// wrapper_element.classList.add('hide');
 
 // Function to draw the line
 // https://stackoverflow.com/a/58468957
 function drawLine(isSFU, switching) {
      
     // Clear any existing lines
-    if((breakpoint2.matches || clicked) && !switching) {
+    if((clicked) && !switching) {
         lineContainer.innerHTML = '';
         visible = false;
         console.log("not working");
@@ -161,6 +161,11 @@ function updateContent(isSFU) {
         image_element.src = tue_image_src;
     }
 }
+
+clicked = false;
+updateContent(true);
+drawLine(isSFU_, true);
+wrapper_element.classList.remove('hide');
 
 // Draw the line initially
 sfu_element.addEventListener('click', function(event) {
