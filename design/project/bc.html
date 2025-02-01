@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BC Healthcare Hub - Max Nielsen</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <script src="js/header.js" defer></script>
-    <script src="js/back_home.js" defer></script>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <script src="../../js/header.js" defer></script>
+    <!-- <script src="../../js/back_home.js" defer></script> -->
 </head>
 
 <body>
@@ -16,30 +16,31 @@
     <header id="menu-header">
         <div>
             <!-- <img src="img/logo.png" height="512" width="512"> -->
-            <a href="index.html">
+            <a href="../index.html">
                 <h1>Max Nielsen</h1>
             </a>
         </div>
 
         <a id="mobile-menu-link" href="#" class="button-small submenu-dropdown hide">
             Menu
-            <img src="img/icon/chevron.png" width="36" height="18" alt="Show menu">
+            <img src="../../img/icon/chevron.png" width="36" height="18" alt="Show menu">
         </a>
 
         <nav aria-label="Main">
             <ul>
-                <li><a id="about-link" href="index.html#about" class="button-small">About me</a></li>
+                <li><a id="about-link" href="../index.html#about" class="button-small">About me</a></li>
                 <li>
-                    <a id="nav-projects" href="index.html#projects" class="button-small submenu-dropdown">Projects<img
-                            src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+                    <a id="nav-projects" href="../index.html#projects"
+                        class="button-small submenu-dropdown">Projects<img src="../../img/icon/chevron.png" width="36"
+                            height="18" alt="Show submenu"></a>
                     <ul class="dropdown" id="subnav-projects">
                         <li><a href="serendipity.html" class="button-small button-dropdown">Serendipity</a></li>
                         <li><a href="bc.html" class="button-small button-dropdown">BC Healthcare Hub</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a id="nav-connect" href="index.html#connect" class="button-small submenu-dropdown">Let's
-                        connect<img src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+                    <a id="nav-connect" href="#connect" class="button-small submenu-dropdown">Let's
+                        connect<img src="../../img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
                     <ul class="dropdown" id="subnav-connect">
                         <li><a href="mailto:contact@maxnielsen.ca" class="button-small button-dropdown">Email</a></li>
                         <li><a href="tel:7786364131" class="button-small button-dropdown">Phone</a></li>
@@ -55,15 +56,20 @@
 
     <!-- Title and nav(?) -->
 
-    <header class="wrapper-padding wrapper-padding-vertical sticky-header grid-header i-want-sticky-header">
-        <a href="index.html" class="back-home" id="back_home">back home</a>
+    <!-- IMAGE and title and description -->
+        <picture class="project-hero-img">
+            <source media="(min-width: 58.125rem)" srcset="../../img/design/bc/intro_t.webp" />
+            <source media="(max-width: 58.125rem)" srcset="../../img/design/bc/application_t.webp" />
+            <img src="../../img/design/bc/intro.webp" />
+        </picture>
 
-        <hgroup>
+        <hgroup class="project-hero-title i-want-sticky-header" id="">
             <h1>BC Healthcare Hub</h1>
-            <p class="tagline">Helping international students apply for MSP</p>
+            <p class="tagline">A mobile application prototype that supports learning about and using British Columbia's
+                healthcare system.</p>
         </hgroup>
-    </header>
 
+        <!-- <a href="../index.html" class="back-home" id="back_home">to the top</a> -->
 
     <!-- About Me -->
 
@@ -85,7 +91,7 @@
 
             <div class="trailer">
                 <h3 class="heading-underline">Final Design</h3>
-                <img src="img/project/bc/final_interface.webp" height="2464" width="2560"
+                <img src="../../img/design/bc/final_interface.webp" height="2464" width="2560"
                     alt="Interface of the BC Healthcare Hub mobile app">
             </div>
 
@@ -113,7 +119,7 @@
             </div>
             <div class="trailer">
                 <h3 class="heading-underline">Notes from user testing interviews</h3>
-                <img src="img/project/bc/user_testing_documents.webp" height="2210" width="2560"
+                <img src="../../img/design/bc/user_testing_documents.webp" height="2210" width="2560"
                     alt="Screenshots of document notes from user testing interviews">
             </div>
         </div>
@@ -136,9 +142,9 @@
             <div class="selection-system">
                 <h3 class="heading-underline">Two iterations of thematic analysis theming</h3>
                 <div class="images-together">
-                    <img src="img/project/bc/thematic_analysis_1st_round.webp" height="1984" width="2560"
+                    <img src="../../img/design/bc/thematic_analysis_1st_round.webp" height="1984" width="2560"
                         alt="Screenshot of digital sticky notes grouped together by a few themes">
-                    <img src="img/project/bc/thematic_analysis_2nd_round.webp" height="2528" width="2560"
+                    <img src="../../img/design/bc/thematic_analysis_2nd_round.webp" height="2528" width="2560"
                         alt="Screenshot of digital sticky notes grouped together by a lot of themes">
                 </div>
             </div>
@@ -149,11 +155,15 @@
         <h2 class="heading-underline">Reflection</h2>
 
         <p>
-            As the project progressed, it became apparent that the group’s work was unbalanced. I took on too many
-            tasks as my knowledge of web, interaction, and system design aligned with this course’s content. My
-            group members also stuck to their own strengths. Next time, I will focus on developing new skills while
-            acting as a mentor for others who focus on areas that I am proficient in. This way, we can distribute
-            the tasks more evenly and foster better outcomes for each group member.
+            This revealed some interesting outcomes: some themes were very specific (for example, warning and error
+            icons and colours) while others were very generalized (e.g. UI design). This level of detail of the themes
+            showed us the most common issues that were brought up and allowed us to prioritize certain issues. Finally,
+            to visualize this in a more cohesive manner, I placed these themes them into a Venn diagram of design,
+            system, and content. This allowed us to communicate our issues clearly in the weekly presentation
+            and outline solutions we will use to address each of these themes.
+
+            The outcome of the thematic analysis helped us streamline what iterations needed to be prioritized leading
+            up to the deadline of the project.
         </p>
 
     </section>
@@ -174,8 +184,8 @@
         <p class="footer-location">from Vancouver, Canada</p>
 
         <div class="footer-links">
-            <a class="button-small" href="citations.html">Citations</a>
-            <a class="button-small" href="https://github.sfu.ca/mhn8/IAT339-P3" target="_blank">GitHub</a>
+            <!-- <a class="button-small" href="../citations.html">Citations</a> -->
+            <a class="button-small" href="https://github.com/bluejunimo/maxnielsen.ca/" target="_blank">GitHub</a>
         </div>
     </footer>
 </body>

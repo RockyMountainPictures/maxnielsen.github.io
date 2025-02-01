@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Serendipity - Max Nielsen</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <script src="js/header.js" defer></script>
-    <script src="js/radio_img.js" defer></script>
-    <script src="js/back_home.js" defer></script>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <script src="../../js/header.js" defer></script>
+    <script src="../../js/radio_img.js" defer></script>
+    <script src="../../js/back_home.js" defer></script>
 
 </head>
 
@@ -18,26 +18,26 @@
 	<header id="menu-header">
 		<div>
 			<!-- <img src="img/logo.png" height="512" width="512"> -->
-			<a href="index.html"><h1>Max Nielsen</h1></a>
+			<a href="../index.html"><h1>Max Nielsen</h1></a>
 		</div>
 
 		<a id="mobile-menu-link" href="#" class="button-small submenu-dropdown hide">
 			Menu
-			<img src="img/icon/chevron.png" width="36" height="18" alt="Show menu">
+			<img src="../../img/icon/chevron.png" width="36" height="18" alt="Show menu">
 		</a>
 
 		<nav aria-label="Main">
 			<ul>
-				<li><a id="about-link" href="index.html#about" class="button-small">About me</a></li>
+				<li><a id="about-link" href="../index.html#about" class="button-small">About me</a></li>
 				<li>
-					<a id="nav-projects" href="index.html#projects" class="button-small submenu-dropdown">Projects<img src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+					<a id="nav-projects" href="../index.html#projects" class="button-small submenu-dropdown">Projects<img src="../../img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
 					<ul class="dropdown" id="subnav-projects">
                         <li><a href="serendipity.html" class="button-small button-dropdown">Serendipity</a></li>
                         <li><a href="bc.html" class="button-small button-dropdown">BC Healthcare Hub</a></li>
                     </ul>
 				</li>
 				<li>
-					<a id="nav-connect" href="index.html#connect" class="button-small submenu-dropdown">Let's connect<img src="img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
+					<a id="nav-connect" href="#connect" class="button-small submenu-dropdown">Let's connect<img src="../../img/icon/chevron.png" width="36" height="18" alt="Show submenu"></a>
 					<ul class="dropdown" id="subnav-connect">
                         <li><a href="mailto:contact@maxnielsen.ca" class="button-small button-dropdown">Email</a></li>
                         <li><a href="tel:7786364131" class="button-small button-dropdown">Phone</a></li>
@@ -52,14 +52,16 @@
 
     <!-- Title and nav(?) -->
 
-    <header class="wrapper-padding wrapper-padding-vertical sticky-header grid-header i-want-sticky-header">
-        <a href="index.html" class="back-home" id="back_home">back home</a>
+    <picture class="project-hero-img serendipity-hero-img">
+        <source media="(min-width: 58.125rem)" srcset="../../img/design/serendipity/design-context.webp" />
+        <source media="(max-width: 58.125rem)" srcset="../../img/design/serendipity/selector.webp" />
+        <img src="../../img/design/bc/intro.webp" />
+    </picture>
 
-        <hgroup>
-            <h1>Serendipity</h1>
-            <p class="tagline">A shared listening experience.</p>
-        </hgroup>
-    </header>
+    <hgroup class="project-hero-title i-want-sticky-header" id="">
+        <h1>Serendipity</h1>
+        <p class="tagline">A shared listening experience for large student design spaces of the near future.</p>
+    </hgroup>
 
 
     <!-- About Me -->
@@ -119,8 +121,8 @@
             </div>
             <div class="selection-system">
                 <h3 class="heading-underline">Selection systems</h3>
-                <img src="img/project/serendipity/system1.webp" height="998" width="3604" id="before_img" alt="Winner-takes-all system">
-                <img src="img/project/serendipity/system2.webp" height="998" width="3604" id="after_img" alt="Lottery system">
+                <img src="../../img/design/serendipity/system1.webp" height="998" width="3604" id="before_img" alt="Winner-takes-all system">
+                <img src="../../img/design/serendipity/system2.webp" height="998" width="3604" id="after_img" alt="Lottery system">
                 <div class="hide">
                     <div>
                         <input type="radio" id="r_before_img" name="imageToggle" value="image1" checked />
@@ -164,8 +166,8 @@
 		<p class="footer-location">from Vancouver, Canada</p>
 
 		<div class="footer-links">
-			<a class="button-small" href="citations.html">Citations</a>
-			<a class="button-small" href="https://github.sfu.ca/mhn8/IAT339-P3" target="_blank">GitHub</a>
+			<!-- <a class="button-small" href="citations.html">Citations</a> -->
+			<a class="button-small" href="https://github.com/bluejunimo/maxnielsen.ca/" target="_blank">GitHub</a>
 		</div>
 	</footer>
 </body>

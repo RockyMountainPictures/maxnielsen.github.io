@@ -1,5 +1,13 @@
 * {
     white-space: nowrap;
+    transition-property: color, border, background-color, padding, transform, margin, opacity, height, text-decoration-color, width, font-weight, font-size;
+    transition-duration: 0.35s;
+}
+
+:hover,
+:focus {
+    transition-property: color, border, background-color, padding, transform, margin, opacity, height, text-decoration-color, width, font-size, font-weight;
+    transition-duration: 0.25s;
 }
 
 .landing-menu-card img {

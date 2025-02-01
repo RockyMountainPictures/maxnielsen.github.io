@@ -152,16 +152,24 @@ about_link.addEventListener('click', function (event) {
 });
 
 
-// https://stackoverflow.com/a/73675287
-window.addEventListener('scroll', () => {
-    // console.log("sad");
-    if (body_element.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-        // console.log("did it");
-        document.querySelector(".sticky-header").classList.add("header-scrolled");
-    } else {
-        document.querySelector(".sticky-header").classList.remove("header-scrolled");
-        // console.log("did NOT do it");
-    }
+// // https://stackoverflow.com/a/73675287
+// window.addEventListener('scroll', () => {
+//     // console.log("sad");
+//     if (body_element.scrollTop > 680 || document.documentElement.scrollTop > 680) {
+//         // console.log("did it");
+//         document.querySelector(".sticky-header").classList.add("header-scrolled");
+//     } else {
+//         document.querySelector(".sticky-header").classList.remove("header-scrolled");
+//         // console.log("did NOT do it");
+//     }
+// });
+
+// https://stackoverflow.com/a/77004784
+const el = document.querySelector(".sticky-header");
+window.addEventListener("scroll", () => {
+    const stickyTop = parseInt(window.getComputedStyle(el).top);
+    const currentTop = el.getBoundingClientRect().top;
+    el.classList.toggle("header-scrolled", currentTop === stickyTop);
 });
 
 
